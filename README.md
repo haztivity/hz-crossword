@@ -84,4 +84,4 @@ All the options of jq-crossword **except** functions could be specified by attri
 
 If the option have multiple words, use dashes, for example ```acrossListTitle``` have to be provided as ```across-list-title```
 
-For more info please visit [jqQuiz](https://github.com/davinchi-finsi/jq-crossword)
+For more info please visit [jq-crossword](https://github.com/davinchi-finsi/jq-crossword)
