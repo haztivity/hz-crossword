@@ -16,6 +16,9 @@
     "type": "git",
     "url": "git@https://github.com/haztivity/hz-crossword.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": "https://github.com/haztivity/hz-crossword",
   "author": "Davinchi",
   "license": "MIT",
