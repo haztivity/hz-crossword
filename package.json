@@ -1,6 +1,6 @@
 {
   "name": "@haztivity/hz-crossword",
-  "version": "1.0.0",
+  "version": "0.6.0",
   "description": "Haztivity resource wrapper for jq-crossword",
   "main": "dist/hz-crossword.js",
   "jsnext:main": "esm2015/hz-crossword.js",
