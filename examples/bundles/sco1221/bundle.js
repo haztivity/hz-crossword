@@ -10439,7 +10439,7 @@ sco.run();
 });
 ___scope___.file("sco1221/main.scss", function(exports, require, module, __filename, __dirname){
 
-__fsbx_css("sco1221/main.scss", "/* Estilos de prueba. NO UTILIZAR en proyecto*/\n/* Common */\n/*Cross browser: reset vendor styles*/\nhtml, body, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,\narticle, aside, details, dialog, figcaption, figure, footer, header, main, nav, section, summary, audio, canvas, video, mark, code, kbd, pre, samp,\na, abbr, acronym, address, code, del, dfn, em, strong, img, q, dl, dt, dd, ol, ul,\nli, fieldset, form, label, legend, table, caption, tbody, tfoot, thead,\ntr, th, td, div {\n  line-height: initial;\n  margin: 0;\n  padding: 0;\n  border: none;\n  font-weight: normal;\n  font-style: normal;\n  font-size: 100%;\n  font-family: inherit;\n  vertical-align: baseline;\n  text-decoration: none;\n  -ms-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\nhtml {\n  font-family: sans-serif;\n  /* 1 */\n  line-height: 1.15;\n  /* 2 */\n  -ms-text-size-adjust: 100%;\n  /* 3 */\n  -webkit-text-size-adjust: 100%;\n  /* 3 */\n}\n\ninput, button, select, textarea {\n  line-height: initial;\n  margin: 0;\n  padding: 0;\n  font-weight: normal;\n  font-style: normal;\n  font-size: 100%;\n  font-family: inherit;\n  vertical-align: baseline;\n  text-decoration: none;\n  -ms-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\nul, ol, dl {\n  list-style: none;\n}\n\ninput[type=\"text\"] {\n  -webkit-appearance: none;\n}\n\nbody input[type=\"search\"] {\n  box-sizing: border-box;\n}\n\ni {\n  font-style: normal;\n}\n\n/*html elements*/\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nmain,\nmenu,\nnav,\nsection,\nsummary {\n  /* 1 */\n  display: block;\n}\n\n/*! extends from normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */\n/**\r\n * 1. Change the default font family in all browsers (opinionated).\r\n * 2. Correct the line height in all browsers.\r\n * 3. Prevent adjustments of font size after orientation changes in IE and iOS.\r\n */\nhtml {\n  font-family: sans-serif;\n  /* 1 */\n  font-size: 100%;\n  line-height: 1.15;\n  /* 2 */\n  -ms-text-size-adjust: 100%;\n  /* 3 */\n  -webkit-text-size-adjust: 100%;\n  /* 3 */\n}\n\n/**\r\n * Remove the margin in all browsers (opinionated).\r\n */\nbody {\n  margin: 0;\n}\n\n/* HTML5 display definitions\r\n   ========================================================================== */\n/**\r\n * Add the correct display in IE 9-.\r\n * 1. Add the correct display in Edge, IE, and Firefox.\r\n * 2. Add the correct display in IE.\r\n */\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nmain,\nmenu,\nnav,\nsection,\nsummary {\n  /* 1 */\n  display: block;\n}\n\n/**\r\n * Add the correct display in IE 9-.\r\n */\naudio,\ncanvas,\nprogress,\nvideo {\n  display: inline-block;\n}\n\n/**\r\n * Add the correct display in iOS 4-7.\r\n */\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n\n/**\r\n * Add the correct vertical alignment in Chrome, Firefox, and Opera.\r\n */\nprogress {\n  vertical-align: baseline;\n}\n\n/**\r\n * Add the correct display in IE 10-.\r\n * 1. Add the correct display in IE.\r\n */\ntemplate,\n[hidden] {\n  display: none;\n}\n\n/* Links\r\n   ========================================================================== */\n/**\r\n * 1. Remove the gray background on active links in IE 10.\r\n * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.\r\n */\na {\n  background-color: transparent;\n  /* 1 */\n  -webkit-text-decoration-skip: objects;\n  /* 2 */\n}\n\n/**\r\n * Remove the outline on focused links when they are also active or hovered\r\n * in all browsers (opinionated).\r\n */\na:active,\na:hover,\na:visited {\n  outline-width: 0;\n  color: inherit;\n}\n\n/* Text-level semantics\r\n   ========================================================================== */\n/**\r\n * 1. Remove the bottom border in Firefox 39-.\r\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\r\n */\nabbr[title] {\n  border-bottom: none;\n  /* 1 */\n  text-decoration: underline;\n  /* 2 */\n  text-decoration: underline dotted;\n  /* 2 */\n}\n\n/**\r\n * Prevent the duplicate application of `bolder` by the next rule in Safari 6.\r\n */\nb,\nstrong {\n  font-weight: inherit;\n}\n\n/**\r\n * Add the correct font weight in Chrome, Edge, and Safari.\r\n */\nb,\nstrong {\n  font-weight: bold;\n}\n\n/**\r\n * Add the correct font style in Android 4.3-.\r\n */\ndfn {\n  font-style: italic;\n}\n\n/**\r\n * Add the correct background and color in IE 9-.\r\n */\nmark {\n  background-color: #ff0;\n  color: #000;\n}\n\n/**\r\n * Add the correct font size in all browsers.\r\n */\nsmall {\n  font-size: 80%;\n}\n\n/**\r\n * Prevent `sub` and `sup` elements from affecting the line height in\r\n * all browsers.\r\n */\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/* Embedded content\r\n   ========================================================================== */\n/**\r\n * Remove the border on images inside links in IE 10-.\r\n */\nimg {\n  border-style: none;\n  max-width: 100%;\n}\n\n/**\r\n * Hide the overflow in IE.\r\n */\nsvg:not(:root) {\n  overflow: hidden;\n}\n\n/* Grouping content\r\n   ========================================================================== */\n/**\r\n * 1. Correct the inheritance and scaling of font size in all browsers.\r\n * 2. Correct the odd `em` font sizing in all browsers.\r\n */\ncode,\nkbd,\npre,\nsamp {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */\n}\n\n/**\r\n * 1. Add the correct box sizing in Firefox.\r\n * 2. Show the overflow in Edge and IE.\r\n */\nhr {\n  box-sizing: content-box;\n  /* 1 */\n  height: 0;\n  /* 1 */\n  overflow: visible;\n  /* 2 */\n}\n\n/* Forms\r\n   ========================================================================== */\n/**\r\n * 1. Change font properties to `inherit` in all browsers (opinionated).\r\n * 2. Remove the margin in Firefox and Safari.\r\n */\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font: inherit;\n  /* 1 */\n  margin: 0;\n  /* 2 */\n}\n\n/**\r\n * Restore the font weight unset by the previous rule.\r\n */\noptgroup {\n  font-weight: bold;\n}\n\n/**\r\n * Show the overflow in IE.\r\n * 1. Show the overflow in Edge.\r\n */\nbutton,\ninput {\n  /* 1 */\n  overflow: visible;\n}\n\n/**\r\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\r\n * 1. Remove the inheritance of text transform in Firefox.\r\n */\nbutton,\nselect {\n  /* 1 */\n  text-transform: none;\n}\n\n/**\r\n * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`\r\n *    controls in Android 4.\r\n * 2. Correct the inability to style clickable types in iOS and Safari.\r\n */\nbutton,\nhtml [type=\"button\"],\n[type=\"reset\"],\n[type=\"submit\"] {\n  -webkit-appearance: button;\n  /* 2 */\n}\n\n/**\r\n * Remove the inner border and padding in Firefox.\r\n */\nbutton::-moz-focus-inner,\n[type=\"button\"]::-moz-focus-inner,\n[type=\"reset\"]::-moz-focus-inner,\n[type=\"submit\"]::-moz-focus-inner {\n  border-style: none;\n  padding: 0;\n}\n\n/**\r\n * 1. Correct the text wrapping in Edge and IE.\r\n * 2. Correct the color inheritance from `fieldset` elements in IE.\r\n * 3. Remove the padding so developers are not caught out when they zero out\r\n *    `fieldset` elements in all browsers.\r\n */\nlegend {\n  box-sizing: border-box;\n  /* 1 */\n  color: inherit;\n  /* 2 */\n  display: table;\n  /* 1 */\n  max-width: 100%;\n  /* 1 */\n  padding: 0;\n  /* 3 */\n  white-space: normal;\n  /* 1 */\n}\n\n/**\r\n * Remove the default vertical scrollbar in IE.\r\n */\ntextarea {\n  overflow: auto;\n}\n\n/**\r\n * Correct the cursor style of increment and decrement buttons in Chrome.\r\n */\n[type=\"number\"]::-webkit-inner-spin-button,\n[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/**\r\n * 1. Correct the odd appearance in Chrome and Safari.\r\n * 2. Correct the outline style in Safari.\r\n */\n[type=\"search\"] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  outline-offset: -2px;\n  /* 2 */\n}\n\n/**\r\n * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.\r\n */\n[type=\"search\"]::-webkit-search-cancel-button,\n[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/**\r\n * Correct the text style of placeholders in Chrome, Edge, and Safari.\r\n */\n::-webkit-input-placeholder {\n  color: inherit;\n  opacity: 0.54;\n}\n\n/**\r\n * 1. Correct the inability to style clickable types in iOS and Safari.\r\n * 2. Change font properties to `inherit` in Safari.\r\n */\n::-webkit-file-upload-button {\n  -webkit-appearance: button;\n  /* 1 */\n  font: inherit;\n  /* 2 */\n}\n\n/* End common */\n/* Components */\nbody {\n  width: 80%;\n  margin: 0 auto;\n  padding: 1em;\n}\n\n/* _mod-viewer */\n.mod-viewer {\n  height: 95vh;\n  display: flex;\n  flex-direction: column;\n  opacity: 0.9;\n  overflow: hidden;\n}\n\n.mod-viewer [data-hz-pages],\n.mod-viewer [hz-pages] {\n  overflow: auto;\n}\n\n/* End _mod-viewer */\n/* _hz-navbar.theme-default */\n/* _hz-navbar.structure */\n.hz-navbar {\n  display: flex;\n  padding: 0.75em;\n  align-items: center;\n}\n\n.hz-navbar .hz-navbar__btn {\n  margin: 0;\n  padding: 0;\n  border: none;\n  cursor: pointer;\n  background: none;\n  outline: none;\n}\n\n.hz-navbar .hz-navbar__progress {\n  width: 33.3%;\n  display: flex;\n  align-items: center;\n}\n\n.hz-navbar .hz-navbar__progress-mask {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 1;\n}\n\n.hz-navbar .hz-navbar__progress-bar {\n  height: 1.125em;\n  width: 75%;\n  position: relative;\n}\n\n.hz-navbar .hz-navbar__progress-value {\n  height: 100%;\n  transform: scaleX(0);\n  transform-origin: left;\n}\n\n.hz-navbar .hz-navbar__progress-percentage {\n  margin-left: 0.375em;\n}\n\n.hz-navbar .hz-navbar__actions {\n  display: flex;\n  width: 33.3%;\n  justify-content: center;\n}\n\n.hz-navbar .hz-navbar__actions .hz-navbar__btn {\n  margin: 0 0.375em;\n}\n\n.hz-navbar .hz-navbar__pager {\n  display: flex;\n  align-items: center;\n  width: 33.3%;\n  justify-content: flex-end;\n}\n\n.hz-navbar .hz-navbar__pages {\n  padding: 0 0.375em;\n}\n\n.hz-navbar .hz-navbar__total:before {\n  content: \"/\";\n}\n\n.hz-navbar__index-list-dialog {\n  position: absolute;\n}\n\n/* End _hz-navbar.structure */\n.hz-navbar {\n  background-color: rgba(0, 0, 0, 0.5);\n}\n\n.hz-navbar .hz-navbar__progress-percentage {\n  color: #fff;\n}\n\n.hz-navbar .hz-navbar__btn {\n  transition: all 400ms ease;\n}\n\n.hz-navbar .hz-navbar__btn .hz-navbar__content {\n  position: absolute;\n  top: 0;\n  left: -99999em;\n}\n\n.hz-navbar .hz-navbar__btn:not([disabled]):hover, .hz-navbar .hz-navbar__btn:not([disabled]):focus {\n  transform: scale(1.2);\n}\n\n.hz-navbar .hz-navbar__btn[disabled] {\n  opacity: 0.5;\n  cursor: default;\n}\n\n.hz-navbar .hz-navbar__progress-bar {\n  border: 2px solid none;\n  background-color: #999;\n}\n\n.hz-navbar .hz-navbar__progress-value {\n  transition: all 400ms ease;\n  background-color: #ddd;\n}\n\n.hz-navbar .hz-navbar__actions .hz-navbar__btn {\n  font-size: 1em;\n}\n\n.hz-navbar .hz-navbar__actions .hz-navbar__btn:after {\n  transition: all 400ms ease;\n  font-family: FontAwesome;\n  font-size: 1.75em;\n}\n\n.hz-navbar .hz-navbar__action-home {\n  color: #fff;\n}\n\n.hz-navbar .hz-navbar__action-home:not([disabled]):hover, .hz-navbar .hz-navbar__action-home:not([disabled]):focus {\n  color: #fff;\n}\n\n.hz-navbar .hz-navbar__action-home:not([disabled]):hover:after, .hz-navbar .hz-navbar__action-home:not([disabled]):focus:after {\n  color: #fff;\n}\n\n.hz-navbar .hz-navbar__action-home:after {\n  content: \"\\f015\";\n  color: #fff;\n}\n\n.hz-navbar .hz-navbar__action-index {\n  color: #fff;\n}\n\n.hz-navbar .hz-navbar__action-index:not([disabled]):hover, .hz-navbar .hz-navbar__action-index:not([disabled]):focus {\n  color: #fff;\n}\n\n.hz-navbar .hz-navbar__action-index:not([disabled]):hover:after, .hz-navbar .hz-navbar__action-index:not([disabled]):focus:after {\n  color: #fff;\n}\n\n.hz-navbar .hz-navbar__action-index:after {\n  content: \"\\f0ca\";\n  color: #fff;\n}\n\n.hz-navbar .hz-navbar__pager .hz-navbar__btn {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  color: #fff;\n}\n\n.hz-navbar .hz-navbar__pager .hz-navbar__btn:after {\n  font-family: FontAwesome;\n  font-size: 1.875em;\n}\n\n.hz-navbar .hz-navbar__pager .hz-navbar__btn.hz-navbar__prev:after {\n  content: \"\\f053\";\n}\n\n.hz-navbar .hz-navbar__pager .hz-navbar__btn.hz-navbar__next:after {\n  content: \"\\f054\";\n}\n\n.hz-navbar .hz-navbar__pages {\n  color: #fff;\n}\n\n/* End _hz-navbar.theme-default */\n.c-crossword__board {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n\n.c-crossword__clue {\n  border: 1px solid #999;\n  padding: 0;\n  text-align: center;\n  font-size: 1.5rem;\n  height: 2.8rem;\n  width: 3.125rem;\n  font-family: Arial;\n  vertical-align: middle;\n}\n\n.c-crossword__clue__field {\n  border: none;\n  height: 100%;\n  width: 100%;\n  text-align: center;\n  font-size: 1.5rem;\n}\n\n.c-crossword__cell--first-letter {\n  position: relative;\n}\n\n.c-crossword__cell--first-letter:before {\n  font-size: 0.625rem;\n  position: absolute;\n  top: 0;\n  left: 0;\n}\n\n.c-crossword__cell--first-letter-across:before {\n  content: attr(data-across);\n}\n\n.c-crossword__cell--first-letter-down:before {\n  content: attr(data-down);\n}\n\n.c-crossword .c-crossword__cell {\n  border-color: transparent;\n}\n\n.c-crossword .c-crossword__clue {\n  color: #000;\n  border-color: #999;\n  background-color: transparent;\n}\n\n.c-crossword .c-crossword__clue.c-crossword__clue--active,\n.c-crossword .c-crossword__clue.c-crossword__clue--active .c-crossword__clue__field {\n  color: #000;\n  border-color: #999;\n  background-color: #666;\n}\n\n.c-crossword .c-crossword__list-item {\n  color: #000;\n  background-color: transparent;\n}\n\n.c-crossword .c-crossword__list-item.c-crossword__clue--active {\n  font-weight: bold;\n  color: #000;\n  background-color: transparent;\n}\n\n.c-crossword .c-crossword__clue--incorrect .c-crossword__clue__field {\n  color: #fff;\n  border-color: #999;\n  background-color: #D32F2F;\n}\n\n.c-crossword .c-crossword__clue--incorrect.c-crossword__list-item {\n  color: #D32F2F;\n  background-color: transparent;\n}\n\n.c-crossword .c-crossword__clue--correct .c-crossword__clue__field {\n  color: #fff;\n  border-color: #999;\n  background-color: #2E7D32;\n}\n\n.c-crossword .c-crossword__clue--correct.c-crossword__list-item {\n  text-decoration: line-through;\n  color: #2E7D32;\n  background-color: transparent;\n}\n\n/* End components */\n\n/*# sourceMappingURL=main.scss.map */");
+__fsbx_css("sco1221/main.scss", "/* Estilos de prueba. NO UTILIZAR en proyecto*/\n/* Common */\n/*Cross browser: reset vendor styles*/\nhtml, body, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,\narticle, aside, details, dialog, figcaption, figure, footer, header, main, nav, section, summary, audio, canvas, video, mark, code, kbd, pre, samp,\na, abbr, acronym, address, code, del, dfn, em, strong, img, q, dl, dt, dd, ol, ul,\nli, fieldset, form, label, legend, table, caption, tbody, tfoot, thead,\ntr, th, td, div {\n  line-height: initial;\n  margin: 0;\n  padding: 0;\n  border: none;\n  font-weight: normal;\n  font-style: normal;\n  font-size: 100%;\n  font-family: inherit;\n  vertical-align: baseline;\n  text-decoration: none;\n  -ms-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\nhtml {\n  font-family: sans-serif;\n  /* 1 */\n  line-height: 1.15;\n  /* 2 */\n  -ms-text-size-adjust: 100%;\n  /* 3 */\n  -webkit-text-size-adjust: 100%;\n  /* 3 */\n}\n\ninput, button, select, textarea {\n  line-height: initial;\n  margin: 0;\n  padding: 0;\n  font-weight: normal;\n  font-style: normal;\n  font-size: 100%;\n  font-family: inherit;\n  vertical-align: baseline;\n  text-decoration: none;\n  -ms-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\nul, ol, dl {\n  list-style: none;\n}\n\ninput[type=\"text\"] {\n  -webkit-appearance: none;\n}\n\nbody input[type=\"search\"] {\n  box-sizing: border-box;\n}\n\ni {\n  font-style: normal;\n}\n\n/*html elements*/\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nmain,\nmenu,\nnav,\nsection,\nsummary {\n  /* 1 */\n  display: block;\n}\n\n/*! extends from normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */\n/**\r\n * 1. Change the default font family in all browsers (opinionated).\r\n * 2. Correct the line height in all browsers.\r\n * 3. Prevent adjustments of font size after orientation changes in IE and iOS.\r\n */\nhtml {\n  font-family: sans-serif;\n  /* 1 */\n  font-size: 100%;\n  line-height: 1.15;\n  /* 2 */\n  -ms-text-size-adjust: 100%;\n  /* 3 */\n  -webkit-text-size-adjust: 100%;\n  /* 3 */\n}\n\n/**\r\n * Remove the margin in all browsers (opinionated).\r\n */\nbody {\n  margin: 0;\n}\n\n/* HTML5 display definitions\r\n   ========================================================================== */\n/**\r\n * Add the correct display in IE 9-.\r\n * 1. Add the correct display in Edge, IE, and Firefox.\r\n * 2. Add the correct display in IE.\r\n */\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nmain,\nmenu,\nnav,\nsection,\nsummary {\n  /* 1 */\n  display: block;\n}\n\n/**\r\n * Add the correct display in IE 9-.\r\n */\naudio,\ncanvas,\nprogress,\nvideo {\n  display: inline-block;\n}\n\n/**\r\n * Add the correct display in iOS 4-7.\r\n */\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n\n/**\r\n * Add the correct vertical alignment in Chrome, Firefox, and Opera.\r\n */\nprogress {\n  vertical-align: baseline;\n}\n\n/**\r\n * Add the correct display in IE 10-.\r\n * 1. Add the correct display in IE.\r\n */\ntemplate,\n[hidden] {\n  display: none;\n}\n\n/* Links\r\n   ========================================================================== */\n/**\r\n * 1. Remove the gray background on active links in IE 10.\r\n * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.\r\n */\na {\n  background-color: transparent;\n  /* 1 */\n  -webkit-text-decoration-skip: objects;\n  /* 2 */\n}\n\n/**\r\n * Remove the outline on focused links when they are also active or hovered\r\n * in all browsers (opinionated).\r\n */\na:active,\na:hover,\na:visited {\n  outline-width: 0;\n  color: inherit;\n}\n\n/* Text-level semantics\r\n   ========================================================================== */\n/**\r\n * 1. Remove the bottom border in Firefox 39-.\r\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\r\n */\nabbr[title] {\n  border-bottom: none;\n  /* 1 */\n  text-decoration: underline;\n  /* 2 */\n  text-decoration: underline dotted;\n  /* 2 */\n}\n\n/**\r\n * Prevent the duplicate application of `bolder` by the next rule in Safari 6.\r\n */\nb,\nstrong {\n  font-weight: inherit;\n}\n\n/**\r\n * Add the correct font weight in Chrome, Edge, and Safari.\r\n */\nb,\nstrong {\n  font-weight: bold;\n}\n\n/**\r\n * Add the correct font style in Android 4.3-.\r\n */\ndfn {\n  font-style: italic;\n}\n\n/**\r\n * Add the correct background and color in IE 9-.\r\n */\nmark {\n  background-color: #ff0;\n  color: #000;\n}\n\n/**\r\n * Add the correct font size in all browsers.\r\n */\nsmall {\n  font-size: 80%;\n}\n\n/**\r\n * Prevent `sub` and `sup` elements from affecting the line height in\r\n * all browsers.\r\n */\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/* Embedded content\r\n   ========================================================================== */\n/**\r\n * Remove the border on images inside links in IE 10-.\r\n */\nimg {\n  border-style: none;\n  max-width: 100%;\n}\n\n/**\r\n * Hide the overflow in IE.\r\n */\nsvg:not(:root) {\n  overflow: hidden;\n}\n\n/* Grouping content\r\n   ========================================================================== */\n/**\r\n * 1. Correct the inheritance and scaling of font size in all browsers.\r\n * 2. Correct the odd `em` font sizing in all browsers.\r\n */\ncode,\nkbd,\npre,\nsamp {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */\n}\n\n/**\r\n * 1. Add the correct box sizing in Firefox.\r\n * 2. Show the overflow in Edge and IE.\r\n */\nhr {\n  box-sizing: content-box;\n  /* 1 */\n  height: 0;\n  /* 1 */\n  overflow: visible;\n  /* 2 */\n}\n\n/* Forms\r\n   ========================================================================== */\n/**\r\n * 1. Change font properties to `inherit` in all browsers (opinionated).\r\n * 2. Remove the margin in Firefox and Safari.\r\n */\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font: inherit;\n  /* 1 */\n  margin: 0;\n  /* 2 */\n}\n\n/**\r\n * Restore the font weight unset by the previous rule.\r\n */\noptgroup {\n  font-weight: bold;\n}\n\n/**\r\n * Show the overflow in IE.\r\n * 1. Show the overflow in Edge.\r\n */\nbutton,\ninput {\n  /* 1 */\n  overflow: visible;\n}\n\n/**\r\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\r\n * 1. Remove the inheritance of text transform in Firefox.\r\n */\nbutton,\nselect {\n  /* 1 */\n  text-transform: none;\n}\n\n/**\r\n * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`\r\n *    controls in Android 4.\r\n * 2. Correct the inability to style clickable types in iOS and Safari.\r\n */\nbutton,\nhtml [type=\"button\"],\n[type=\"reset\"],\n[type=\"submit\"] {\n  -webkit-appearance: button;\n  /* 2 */\n}\n\n/**\r\n * Remove the inner border and padding in Firefox.\r\n */\nbutton::-moz-focus-inner,\n[type=\"button\"]::-moz-focus-inner,\n[type=\"reset\"]::-moz-focus-inner,\n[type=\"submit\"]::-moz-focus-inner {\n  border-style: none;\n  padding: 0;\n}\n\n/**\r\n * 1. Correct the text wrapping in Edge and IE.\r\n * 2. Correct the color inheritance from `fieldset` elements in IE.\r\n * 3. Remove the padding so developers are not caught out when they zero out\r\n *    `fieldset` elements in all browsers.\r\n */\nlegend {\n  box-sizing: border-box;\n  /* 1 */\n  color: inherit;\n  /* 2 */\n  display: table;\n  /* 1 */\n  max-width: 100%;\n  /* 1 */\n  padding: 0;\n  /* 3 */\n  white-space: normal;\n  /* 1 */\n}\n\n/**\r\n * Remove the default vertical scrollbar in IE.\r\n */\ntextarea {\n  overflow: auto;\n}\n\n/**\r\n * Correct the cursor style of increment and decrement buttons in Chrome.\r\n */\n[type=\"number\"]::-webkit-inner-spin-button,\n[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/**\r\n * 1. Correct the odd appearance in Chrome and Safari.\r\n * 2. Correct the outline style in Safari.\r\n */\n[type=\"search\"] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  outline-offset: -2px;\n  /* 2 */\n}\n\n/**\r\n * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.\r\n */\n[type=\"search\"]::-webkit-search-cancel-button,\n[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/**\r\n * Correct the text style of placeholders in Chrome, Edge, and Safari.\r\n */\n::-webkit-input-placeholder {\n  color: inherit;\n  opacity: 0.54;\n}\n\n/**\r\n * 1. Correct the inability to style clickable types in iOS and Safari.\r\n * 2. Change font properties to `inherit` in Safari.\r\n */\n::-webkit-file-upload-button {\n  -webkit-appearance: button;\n  /* 1 */\n  font: inherit;\n  /* 2 */\n}\n\n/* End common */\n/* Components */\nbody {\n  width: 80%;\n  margin: 0 auto;\n  padding: 1em;\n}\n\n/* _mod-viewer */\n.mod-viewer {\n  height: 95vh;\n  display: flex;\n  flex-direction: column;\n  opacity: 0.9;\n  overflow: hidden;\n}\n\n.mod-viewer [data-hz-pages],\n.mod-viewer [hz-pages] {\n  overflow: auto;\n}\n\n/* End _mod-viewer */\n/* _hz-navbar.theme-default */\n/* _hz-navbar.structure */\n.hz-navbar {\n  display: flex;\n  padding: 0.75em;\n  align-items: center;\n}\n\n.hz-navbar .hz-navbar__btn {\n  margin: 0;\n  padding: 0;\n  border: none;\n  cursor: pointer;\n  background: none;\n  outline: none;\n}\n\n.hz-navbar .hz-navbar__progress {\n  width: 33.3%;\n  display: flex;\n  align-items: center;\n}\n\n.hz-navbar .hz-navbar__progress-mask {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 1;\n}\n\n.hz-navbar .hz-navbar__progress-bar {\n  height: 1.125em;\n  width: 75%;\n  position: relative;\n}\n\n.hz-navbar .hz-navbar__progress-value {\n  height: 100%;\n  transform: scaleX(0);\n  transform-origin: left;\n}\n\n.hz-navbar .hz-navbar__progress-percentage {\n  margin-left: 0.375em;\n}\n\n.hz-navbar .hz-navbar__actions {\n  display: flex;\n  width: 33.3%;\n  justify-content: center;\n}\n\n.hz-navbar .hz-navbar__actions .hz-navbar__btn {\n  margin: 0 0.375em;\n}\n\n.hz-navbar .hz-navbar__pager {\n  display: flex;\n  align-items: center;\n  width: 33.3%;\n  justify-content: flex-end;\n}\n\n.hz-navbar .hz-navbar__pages {\n  padding: 0 0.375em;\n}\n\n.hz-navbar .hz-navbar__total:before {\n  content: \"/\";\n}\n\n.hz-navbar__dialog {\n  position: absolute;\n  background-color: #fff;\n}\n\n.ui-widget-overlay {\n  background-color: rgba(0, 0, 0, 0.25);\n}\n\n/* End _hz-navbar.structure */\n.hz-navbar {\n  background-color: rgba(0, 0, 0, 0.5);\n}\n\n.hz-navbar .hz-navbar__progress-percentage {\n  color: #fff;\n}\n\n.hz-navbar .hz-navbar__btn {\n  transition: all 400ms ease;\n}\n\n.hz-navbar .hz-navbar__btn .hz-navbar__content {\n  position: absolute;\n  top: 0;\n  left: -99999em;\n}\n\n.hz-navbar .hz-navbar__btn:not([disabled]):hover, .hz-navbar .hz-navbar__btn:not([disabled]):focus {\n  transform: scale(1.2);\n}\n\n.hz-navbar .hz-navbar__btn[disabled] {\n  opacity: 0.5;\n  cursor: default;\n}\n\n.hz-navbar .hz-navbar__progress-bar {\n  border: 2px solid none;\n  background-color: #999;\n}\n\n.hz-navbar .hz-navbar__progress-value {\n  transition: all 400ms ease;\n  background-color: #ddd;\n}\n\n.hz-navbar .hz-navbar__actions .hz-navbar__btn {\n  font-size: 1em;\n}\n\n.hz-navbar .hz-navbar__actions .hz-navbar__btn:after {\n  transition: all 400ms ease;\n  font-family: FontAwesome;\n  font-size: 1.75em;\n}\n\n.hz-navbar .hz-navbar__action-home {\n  color: #fff;\n}\n\n.hz-navbar .hz-navbar__action-home:not([disabled]):hover, .hz-navbar .hz-navbar__action-home:not([disabled]):focus {\n  color: #fff;\n}\n\n.hz-navbar .hz-navbar__action-home:not([disabled]):hover:after, .hz-navbar .hz-navbar__action-home:not([disabled]):focus:after {\n  color: #fff;\n}\n\n.hz-navbar .hz-navbar__action-home:after {\n  content: \"\\f015\";\n  color: #fff;\n}\n\n.hz-navbar .hz-navbar__action-index {\n  color: #fff;\n}\n\n.hz-navbar .hz-navbar__action-index:not([disabled]):hover, .hz-navbar .hz-navbar__action-index:not([disabled]):focus {\n  color: #fff;\n}\n\n.hz-navbar .hz-navbar__action-index:not([disabled]):hover:after, .hz-navbar .hz-navbar__action-index:not([disabled]):focus:after {\n  color: #fff;\n}\n\n.hz-navbar .hz-navbar__action-index:after {\n  content: \"\\f0ca\";\n  color: #fff;\n}\n\n.hz-navbar .hz-navbar__action-exit {\n  color: #fff;\n}\n\n.hz-navbar .hz-navbar__action-exit:not([disabled]):hover, .hz-navbar .hz-navbar__action-exit:not([disabled]):focus {\n  color: #fff;\n}\n\n.hz-navbar .hz-navbar__action-exit:not([disabled]):hover:after, .hz-navbar .hz-navbar__action-exit:not([disabled]):focus:after {\n  color: #fff;\n}\n\n.hz-navbar .hz-navbar__action-exit:after {\n  content: \"\\f08b\";\n  color: #fff;\n}\n\n.hz-navbar .hz-navbar__pager .hz-navbar__btn {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  color: #fff;\n}\n\n.hz-navbar .hz-navbar__pager .hz-navbar__btn:after {\n  font-family: FontAwesome;\n  font-size: 1.875em;\n}\n\n.hz-navbar .hz-navbar__pager .hz-navbar__btn.hz-navbar__prev:after {\n  content: \"\\f053\";\n}\n\n.hz-navbar .hz-navbar__pager .hz-navbar__btn.hz-navbar__next:after {\n  content: \"\\f054\";\n}\n\n.hz-navbar .hz-navbar__pages {\n  color: #fff;\n}\n\n.ui-dialog.hz-navbar__dialog {\n  padding: 0;\n  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);\n}\n\n.ui-dialog.hz-navbar__dialog .ui-dialog-titlebar {\n  background-color: #999;\n}\n\n.ui-dialog.hz-navbar__dialog .ui-dialog-titlebar-close {\n  font-size: 0;\n  background: none;\n  border: none;\n  cursor: pointer;\n}\n\n.ui-dialog.hz-navbar__dialog .ui-dialog-titlebar-close:after {\n  content: \"\\f00d\";\n  font-size: 1rem;\n  color: #fff;\n  font-family: \"FontAwesome\";\n}\n\n.ui-dialog.hz-navbar__dialog .hz-navbar__index-item .hz-navbar__index-item-content {\n  color: #666;\n  cursor: default;\n}\n\n.ui-dialog.hz-navbar__dialog .hz-navbar__index-item.hz-navbar__page--completed .hz-navbar__index-item-content {\n  color: #999;\n  cursor: pointer;\n}\n\n.ui-dialog.hz-navbar__dialog .hz-navbar__index-item.hz-navbar__page--visited .hz-navbar__index-item-content,\n.ui-dialog.hz-navbar__dialog .hz-navbar__index-item.hz-navbar__page--completed + .hz-navbar__index-item .hz-navbar__index-item-content {\n  color: #333;\n  cursor: pointer;\n}\n\n/* End _hz-navbar.theme-default */\n.c-crossword__board {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n\n.c-crossword__clue {\n  border: 1px solid #999;\n  padding: 0;\n  text-align: center;\n  font-size: 1.5rem;\n  height: 2.8rem;\n  width: 3.125rem;\n  font-family: Arial;\n  vertical-align: middle;\n}\n\n.c-crossword__clue__field {\n  border: none;\n  height: 100%;\n  width: 100%;\n  text-align: center;\n  font-size: 1.5rem;\n}\n\n.c-crossword__cell--first-letter {\n  position: relative;\n}\n\n.c-crossword__cell--first-letter:before {\n  font-size: 0.625rem;\n  position: absolute;\n  top: 0;\n  left: 0;\n}\n\n.c-crossword__cell--first-letter-across:before {\n  content: attr(data-across);\n}\n\n.c-crossword__cell--first-letter-down:before {\n  content: attr(data-down);\n}\n\n.c-crossword .c-crossword__cell {\n  border-color: transparent;\n}\n\n.c-crossword .c-crossword__clue {\n  color: #000;\n  border-color: #999;\n  background-color: transparent;\n}\n\n.c-crossword .c-crossword__clue.c-crossword__clue--active,\n.c-crossword .c-crossword__clue.c-crossword__clue--active .c-crossword__clue__field {\n  color: #000;\n  border-color: #999;\n  background-color: #666;\n}\n\n.c-crossword .c-crossword__clue--incorrect .c-crossword__clue__field {\n  color: #fff;\n  border-color: #999;\n  background-color: #D32F2F;\n}\n\n.c-crossword .c-crossword__clue--correct .c-crossword__clue__field {\n  color: #fff;\n  border-color: #999;\n  background-color: #2E7D32;\n}\n\n.c-crossword__clues__list .c-crossword__list-item {\n  color: #000;\n  background-color: transparent;\n}\n\n.c-crossword__clues__list .c-crossword__list-item.c-crossword__clue--active {\n  font-weight: bold;\n  color: #000;\n  background-color: transparent;\n}\n\n.c-crossword__clues__list .c-crossword__clue--incorrect.c-crossword__list-item {\n  color: #D32F2F;\n  background-color: transparent;\n}\n\n.c-crossword__clues__list .c-crossword__clue--correct.c-crossword__list-item {\n  text-decoration: line-through;\n  color: #2E7D32;\n  background-color: transparent;\n}\n\n/* End components */\n\n/*# sourceMappingURL=main.scss.map */");
 });
 ___scope___.file("sco1221/markdown.scss", function(exports, require, module, __filename, __dirname){
 
@@ -10601,7 +10601,7 @@ exports.HzCrosswordResource = HzCrosswordResource;
 });
 ___scope___.file("sco1221/sco.pug", function(exports, require, module, __filename, __dirname){
 
-module.exports.default =  "\n<div data-hz-pages=\"data-hz-pages\"></div>\n<div class=\"hz-navbar\" data-hz-component=\"HzNavbar\">\n  <div class=\"hz-navbar__progress\">\n    <div class=\"hz-navbar__progress-bar\">\n      <div class=\"hz-navbar__progress-mask\"></div>\n      <div class=\"hz-navbar__progress-value\" data-hz-navbar-bar=\"data-hz-navbar-bar\"></div>\n    </div>\n    <div class=\"hz-navbar__content hz-navbar__progress-percentage\" data-hz-navbar-progress=\"data-hz-navbar-progress\"></div>\n  </div>\n  <div class=\"hz-navbar__actions\">\n    <button class=\"hz-navbar__btn hz-navbar__action-home\" data-hz-navbar-home=\"data-hz-navbar-home\" data-hz-navbar-content=\"home\" data-hz-navbar-content-to=\"title\"><span class=\"hz-navbar__content\" data-hz-navbar-content=\"home\"></span></button>\n    <button class=\"hz-navbar__btn hz-navbar__action-index\" data-hz-navbar-index=\"data-hz-navbar-index\" data-hz-navbar-content=\"showIndex\" data-hz-navbar-content-to=\"title\"><span class=\"hz-navbar__content\" data-hz-navbar-content=\"showIndex\"></span></button>\n  </div>\n  <div class=\"hz-navbar__pager\">\n    <button class=\"hz-navbar__btn hz-navbar__prev\" data-hz-navbar-prev=\"data-hz-navbar-prev\" data-hz-navbar-content=\"prev\" data-hz-navbar-content-to=\"title\"><span class=\"hz-navbar__content\" data-hz-navbar-content=\"prev\"></span></button>\n    <p class=\"hz-navbar__pages\"><span class=\"hz-navbar__content hz-navbar__current\" data-hz-navbar-current=\"data-hz-navbar-current\" data-hz-navbar-content-to=\"title\" data-hz-navbar-content=\"currentPage\"></span><span class=\"hz-navbar__content hz-navbar__total\" data-hz-navbar-total=\"data-hz-navbar-total\" data-hz-navbar-content-to=\"title\" data-hz-navbar-content=\"totalPages\"></span></p>\n    <button class=\"hz-navbar__btn hz-navbar__next\" data-hz-navbar-next=\"data-hz-navbar-next\" data-hz-navbar-content=\"next\" data-hz-navbar-content-to=\"title\"><span class=\"hz-navbar__content\" data-hz-navbar-content=\"next\"></span></button>\n  </div>\n  <ul class=\"hz-navbar__index-list\" data-hz-navbar-index-list=\"data-hz-navbar-index-list\">\n    <li class=\"hz-navbar__index-item\" data-hz-navbar-index-list-item=\"data-hz-navbar-index-list-item\"><a class=\"hz-navbar__index-item-content\" data-hz-navbar-index-list-item-content=\"data-hz-navbar-index-list-item-content\" href=\"javascript:void(0)\"></a></li>\n  </ul>\n</div>";
+module.exports.default =  "\n<div data-hz-pages=\"data-hz-pages\"></div>\n<div class=\"hz-navbar\" data-hz-component=\"HzNavbar\">\n  <div class=\"hz-navbar__progress\">\n    <div class=\"hz-navbar__progress-bar\">\n      <div class=\"hz-navbar__progress-mask\"></div>\n      <div class=\"hz-navbar__progress-value\" data-hz-navbar-bar=\"data-hz-navbar-bar\"></div>\n    </div>\n    <div class=\"hz-navbar__content hz-navbar__progress-percentage\" data-hz-navbar-progress=\"data-hz-navbar-progress\"></div>\n  </div>\n  <div class=\"hz-navbar__actions\">\n    <button class=\"hz-navbar__btn hz-navbar__action-home\" data-hz-navbar-home=\"data-hz-navbar-home\" data-hz-navbar-content=\"home\" data-hz-navbar-content-to=\"title\"><span class=\"hz-navbar__content\" data-hz-navbar-content=\"home\"></span></button>\n    <button class=\"hz-navbar__btn hz-navbar__action-index\" data-hz-navbar-index=\"data-hz-navbar-index\" data-hz-navbar-content=\"showIndex\" data-hz-navbar-content-to=\"title\"><span class=\"hz-navbar__content\" data-hz-navbar-content=\"showIndex\"></span></button>\n    <button class=\"hz-navbar__btn hz-navbar__action-exit\" data-hz-navbar-exit=\"data-hz-navbar-exit\" data-hz-navbar-content=\"exit\" data-hz-navbar-content-to=\"title\"><span class=\"hz-navbar__content\" data-hz-navbar-content=\"exit\"></span></button>\n  </div>\n  <div class=\"hz-navbar__pager\">\n    <button class=\"hz-navbar__btn hz-navbar__prev\" data-hz-navbar-prev=\"data-hz-navbar-prev\" data-hz-navbar-content=\"prev\" data-hz-navbar-content-to=\"title\"><span class=\"hz-navbar__content\" data-hz-navbar-content=\"prev\"></span></button>\n    <p class=\"hz-navbar__pages\"><span class=\"hz-navbar__content hz-navbar__current\" data-hz-navbar-current=\"data-hz-navbar-current\" data-hz-navbar-content-to=\"title\" data-hz-navbar-content=\"currentPage\"></span><span class=\"hz-navbar__content hz-navbar__total\" data-hz-navbar-total=\"data-hz-navbar-total\" data-hz-navbar-content-to=\"title\" data-hz-navbar-content=\"totalPages\"></span></p>\n    <button class=\"hz-navbar__btn hz-navbar__next\" data-hz-navbar-next=\"data-hz-navbar-next\" data-hz-navbar-content=\"next\" data-hz-navbar-content-to=\"title\"><span class=\"hz-navbar__content\" data-hz-navbar-content=\"next\"></span></button>\n  </div>\n  <ul class=\"hz-navbar__dialog hz-navbar__index-list\" data-hz-navbar-index-list=\"data-hz-navbar-index-list\">\n    <li class=\"hz-navbar__index-item\" data-hz-navbar-index-list-item=\"data-hz-navbar-index-list-item\"><a class=\"hz-navbar__index-item-content\" data-hz-navbar-index-list-item-content=\"data-hz-navbar-index-list-item-content\" href=\"javascript:void(0)\"></a></li>\n  </ul>\n  <div class=\"hz-navbar__dialog hz-navbar__exit-dialog\" data-hz-navbar-exit-dialog=\"data-hz-navbar-exit-dialog\">\n    <p data-hz-navbar-content=\"exitMessage\"></p>\n  </div>\n</div>";
 });
 });
 FuseBox.pkg("jquery", {}, function(___scope___){
@@ -13136,6 +13136,8 @@ var ScoController = /** @class */ (function () {
             this._$context.prepend(this._options.template);
             this._$context.addClass(ScoController_1.CLASS_CONTEXT);
             this._$pagesContainer = this._$context.find("[data-hz-pages]");
+            this._$exit = this._$context.find("[data-hz-on-exit]");
+            this._$exit.detach();
             this._eventEmitter.globalEmitter.on(PageController_1.PageController.ON_COMPLETE_CHANGE, { instance: this }, this._onPageStateChange);
             this._eventEmitter.globalEmitter.on(PageController_1.PageController.ON_SHOWN, { instance: this }, this._onPageShown);
             //page contexts must exists
@@ -13214,7 +13216,36 @@ var ScoController = /** @class */ (function () {
             instance._scormService.doLMSCommit();
         }
     };
+    ScoController.prototype.exit = function () {
+        this._eventEmitter.globalEmitter.trigger(ScoController_1.ON_BEFORE_EXIT);
+        if (this._scormService.LMSIsInitialized()) {
+            // enviamos un exit
+            this._scormService.doLMSSetValue("cmi.core.exit", "");
+            //los tiempos
+            var sessionTime = this.getSessionTime();
+            this._scormService.doLMSSetValue("cmi.core.session_time", sessionTime);
+            this._scormService.doLMSCommit();
+            this._scormService.doLMSFinish();
+        }
+        this._$context.empty();
+        if (this._$exit && this._$exit.length > 0) {
+            this._$context.append(this._$exit);
+        }
+        else if (this._options.exitMessage) {
+            this._$context.text(this._options.exitMessage);
+        }
+        this._eventEmitter.globalEmitter.trigger(ScoController_1.ON_EXIT);
+    };
+    ScoController.prototype.getSessionTime = function () {
+        var now = Date.now(), sessionTime = now - this._dateStart.getTime();
+        var hours = Math.floor(sessionTime / (1000 * 60 * 60) % 60), minutes = Math.floor(sessionTime / (1000 * 60) % 60), seconds = Math.floor(sessionTime / 1000 % 60);
+        hours = hours < 10 ? '0' + hours : hours;
+        minutes = minutes < 10 ? '0' + minutes : minutes;
+        seconds = seconds < 10 ? '0' + seconds : seconds;
+        return hours + ':' + minutes + ':' + seconds;
+    };
     ScoController.prototype.run = function () {
+        this._dateStart = new Date();
         this._init();
         this._Navigator.activate(this._$pagesContainer);
         this._$pagesContainer.addClass(ScoController_1.CLASS_PAGES);
@@ -13231,8 +13262,11 @@ var ScoController = /** @class */ (function () {
         }
         return this;
     };
+    ScoController.NAMESPACE = "sco";
     ScoController.CLASS_CONTEXT = "hz-container";
     ScoController.CLASS_PAGES = "hz-pages-container";
+    ScoController.ON_EXIT = ScoController_1.NAMESPACE + ":exit";
+    ScoController.ON_BEFORE_EXIT = ScoController_1.NAMESPACE + ":beforeexit";
     ScoController = ScoController_1 = __decorate([
         di_1.Sco({
             name: "ScoController",
@@ -13448,6 +13482,7 @@ var PageController = /** @class */ (function () {
         }
         $element.addClass(PageController_1.CLASS_PAGE + " " + PageController_1.CLASS_PAGE + "-" + this.options.name);
         this.$element = $element;
+        this.eventEmitter.globalEmitter.trigger(PageController_1.ON_RENDERING, [this.$element, this]);
         return $element;
     };
     PageController.prototype._render = function (template) {
@@ -13480,6 +13515,7 @@ var PageController = /** @class */ (function () {
      */
     PageController.prototype.show = function ($oldPage, oldPageRelativePosition) {
         var deferred = this._$.Deferred(), promise = deferred.promise(), event = this.eventEmitter.createEvent(PageController_1.ON_SHOW), result = this.eventEmitter.trigger(event, [this.$element, $oldPage, oldPageRelativePosition, this]);
+        this.eventEmitter.globalEmitter.trigger(PageController_1.ON_SHOW, [this.$element, $oldPage, oldPageRelativePosition, this]);
         if (!event.isDefaultPrevented()) {
             //if the user doesn't prevent default
             this._show($oldPage, oldPageRelativePosition).then(function () {
@@ -16037,17 +16073,33 @@ var ScoFactory = /** @class */ (function () {
     }
     ScoFactory_1 = ScoFactory;
     ScoFactory.createSco = function (options) {
-        var ScoControllerFactory = di_1.Injector.getInstance(ScoFactory_1).get(Sco_1.ScoController);
-        var sco = ScoControllerFactory.instance();
-        sco.activate(options);
-        return sco;
+        if (!ScoFactory_1.SCO) {
+            var ScoControllerFactory = di_1.Injector.getInstance(ScoFactory_1).get(Sco_1.ScoController);
+            var sco = ScoControllerFactory.instance();
+            sco.activate(options);
+            ScoFactory_1.SCO = sco;
+            return sco;
+        }
+        else {
+            throw "[ScoFactory] Error, only 1 sco is allowed";
+        }
     };
     ScoFactory.registerSco = function (scoController, options) {
-        var ScoControllerFactory = di_1.Injector.getInstance(ScoFactory_1).get(scoController);
-        var sco = ScoControllerFactory.instance();
-        sco.activate(options);
-        return sco;
+        if (!ScoFactory_1.SCO) {
+            var ScoControllerFactory = di_1.Injector.getInstance(ScoFactory_1).get(scoController);
+            var sco = ScoControllerFactory.instance();
+            sco.activate(options);
+            ScoFactory_1.SCO = sco;
+            return sco;
+        }
+        else {
+            throw "[ScoFactory] Error, only 1 sco is allowed";
+        }
     };
+    ScoFactory.getCurrentSco = function () {
+        return ScoFactory_1.SCO;
+    };
+    ;
     ScoFactory = ScoFactory_1 = __decorate([
         di_1.Core({
             name: "ScoFactory",
@@ -17289,7 +17341,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@haztivity/core");
 require("jquery-ui-dist/jquery-ui");
-var HzNavbarComponent = HzNavbarComponent_1 = (function (_super) {
+var HzNavbarComponent = /** @class */ (function (_super) {
     __extends(HzNavbarComponent, _super);
     function HzNavbarComponent(_$, _EventEmitterFactory, _Navigator, _PageManager, _DataOptions) {
         var _this = _super.call(this, _$, _EventEmitterFactory) || this;
@@ -17300,13 +17352,43 @@ var HzNavbarComponent = HzNavbarComponent_1 = (function (_super) {
         _this._numPages = 0;
         return _this;
     }
+    HzNavbarComponent_1 = HzNavbarComponent;
     HzNavbarComponent.prototype.init = function (options, config) {
         this._options = core_1.$.extend(true, {}, HzNavbarComponent_1._DEFAULTS, options);
         this._getElements();
         this.updateLocale();
+        this._initExitDialog();
         this.progress(0);
         this._assignEvents();
         this.updatePaginator();
+    };
+    HzNavbarComponent.prototype._initExitDialog = function () {
+        var locale = this._options.locale[this._options.lang] || this._options.locale[this._options.defaultLang];
+        var options = this._DataOptions.getDataOptions(this._$exitDialog, "dialog");
+        options = core_1.$.extend(true, options, {
+            autoOpen: false,
+            show: "fade",
+            hide: "fade",
+            resizable: false,
+            modal: true,
+            buttons: [
+                {
+                    text: locale.exitOk,
+                    click: this._onConfirmExit.bind(this)
+                },
+                {
+                    text: locale.exitKo,
+                    click: this._onCancelExit.bind(this)
+                }
+            ]
+        });
+        if (options.dialogClass) {
+            options.dialogClass += " " + HzNavbarComponent_1.CLASS_LIST_EXIT_DIALOG;
+        }
+        else {
+            options.dialogClass = HzNavbarComponent_1.CLASS_LIST_EXIT_DIALOG;
+        }
+        this._$exitDialog.dialog(options);
     };
     HzNavbarComponent.prototype.updatePaginator = function () {
         var numPages = this._PageManager.count();
@@ -17399,7 +17481,7 @@ var HzNavbarComponent = HzNavbarComponent_1 = (function (_super) {
     HzNavbarComponent.prototype._generateIndex = function () {
         if (this._$indexList && this._$indexList.length > 0 && this._$indexListItemTemplate && this._$indexListItemTemplate.length > 0) {
             this._$indexListItemTemplate.detach();
-            var options = core_1.$.extend({}, HzNavbarComponent_1.OPT_DIALOG_DEFAULTS, this._DataOptions.getDataOptions(this._$indexList, HzNavbarComponent_1.PREFIX_LIST_DIALOG_OPTIONS));
+            var options = core_1.$.extend(true, {}, HzNavbarComponent_1.OPT_DIALOG_DEFAULTS, this._DataOptions.getDataOptions(this._$indexList, "dialog"));
             options.dialogClass = HzNavbarComponent_1.CLASS_LIST_INDEX_DIALOG;
             this._$indexList.dialog(options);
             this._indexListDialog = this._$indexList.data("ui-dialog");
@@ -17443,6 +17525,8 @@ var HzNavbarComponent = HzNavbarComponent_1 = (function (_super) {
         this._$progress = this._$element.find(HzNavbarComponent_1.QUERY_PROGRESS);
         this._$homeBtn = this._$element.find(HzNavbarComponent_1.QUERY_ACTION_HOME);
         this._$indexBtn = this._$element.find(HzNavbarComponent_1.QUERY_ACTION_INDEX);
+        this._$exitBtn = this._$element.find(HzNavbarComponent_1.QUERY_ACTION_EXIT);
+        this._$exitDialog = this._$element.find(HzNavbarComponent_1.QUERY_ACTION_EXIT_DIALOG);
         this._$currentPageIndex = this._$element.find(HzNavbarComponent_1.QUERY_PAGE_CURRENT);
         this._$numPages = this._$element.find(HzNavbarComponent_1.QUERY_PAGE_TOTAL);
         this._$indexList = this._$element.find(HzNavbarComponent_1.QUERY_INDEX_LIST);
@@ -17457,6 +17541,7 @@ var HzNavbarComponent = HzNavbarComponent_1 = (function (_super) {
         this._$prevBtn.on("click." + HzNavbarComponent_1.NAMESPACE, { instance: this }, this._onPrevClick);
         this._$homeBtn.on("click." + HzNavbarComponent_1.NAMESPACE, { instance: this }, this._onHomeClick);
         this._$indexBtn.on("click." + HzNavbarComponent_1.NAMESPACE, { instance: this }, this._onIndexClick);
+        this._$exitBtn.on("click." + HzNavbarComponent_1.NAMESPACE, { instance: this }, this._onExitClick);
         this._$indexList.on("click." + HzNavbarComponent_1.NAMESPACE, HzNavbarComponent_1.QUERY_INDEX_LIST_ITEM, { instance: this }, this._onIndexListItemClick);
         this._Navigator.on(core_1.Navigator.ON_DISABLE, { instance: this }, this._onDisabled);
         this._Navigator.on(core_1.Navigator.ON_ENABLE, { instance: this }, this._onEnabled);
@@ -17491,6 +17576,18 @@ var HzNavbarComponent = HzNavbarComponent_1 = (function (_super) {
     };
     HzNavbarComponent.prototype._onHomeClick = function (e) {
         var instance = e.data.instance;
+        instance._Navigator.goTo(0);
+    };
+    HzNavbarComponent.prototype._onExitClick = function (e) {
+        var instance = e.data.instance;
+        instance._$exitDialog.dialog("open");
+    };
+    HzNavbarComponent.prototype._onCancelExit = function () {
+        this._$exitDialog.dialog("close");
+    };
+    HzNavbarComponent.prototype._onConfirmExit = function () {
+        this._$exitDialog.dialog("close").dialog("destroy");
+        core_1.ScoFactory.getCurrentSco().exit();
     };
     HzNavbarComponent.prototype._onIndexClick = function (e) {
         var instance = e.data.instance;
@@ -17621,57 +17718,66 @@ var HzNavbarComponent = HzNavbarComponent_1 = (function (_super) {
         var instance = e.data.instance;
         instance._updatePagerButtonState();
     };
+    HzNavbarComponent.NAMESPACE = "hzNavbar";
+    HzNavbarComponent.PREFIX = "hz-navbar";
+    HzNavbarComponent.QUERY_ACTION_NEXT = "[data-" + HzNavbarComponent_1.PREFIX + "-next]";
+    HzNavbarComponent.QUERY_ACTION_PREV = "[data-" + HzNavbarComponent_1.PREFIX + "-prev]";
+    HzNavbarComponent.QUERY_BAR = "[data-" + HzNavbarComponent_1.PREFIX + "-bar]";
+    HzNavbarComponent.QUERY_PROGRESS = "[data-" + HzNavbarComponent_1.PREFIX + "-progress]";
+    HzNavbarComponent.QUERY_ACTION_HOME = "[data-" + HzNavbarComponent_1.PREFIX + "-home]";
+    HzNavbarComponent.QUERY_ACTION_INDEX = "[data-" + HzNavbarComponent_1.PREFIX + "-index]";
+    HzNavbarComponent.QUERY_ACTION_EXIT = "[data-" + HzNavbarComponent_1.PREFIX + "-exit]";
+    HzNavbarComponent.QUERY_ACTION_EXIT_DIALOG = "[data-" + HzNavbarComponent_1.PREFIX + "-exit-dialog]";
+    HzNavbarComponent.QUERY_PAGE_CURRENT = "[data-" + HzNavbarComponent_1.PREFIX + "-current]";
+    HzNavbarComponent.QUERY_PAGE_TOTAL = "[data-" + HzNavbarComponent_1.PREFIX + "-total]";
+    HzNavbarComponent.QUERY_INDEX_LIST = "[data-" + HzNavbarComponent_1.PREFIX + "-index-list]";
+    HzNavbarComponent.QUERY_INDEX_LIST_ITEM = "[data-" + HzNavbarComponent_1.PREFIX + "-index-list-item]";
+    HzNavbarComponent.QUERY_INDEX_LIST_ITEM_CONTENT = "[data-" + HzNavbarComponent_1.PREFIX + "-index-list-item-content]";
+    HzNavbarComponent.CLASS_PAGE_VISITED = "hz-navbar__page--visited";
+    HzNavbarComponent.CLASS_PAGE_COMPLETED = "hz-navbar__page--completed";
+    HzNavbarComponent.CLASS_LIST_INDEX_DIALOG = "hz-navbar__dialog hz-navbar__index-list-dialog";
+    HzNavbarComponent.CLASS_LIST_EXIT_DIALOG = "hz-navbar__dialog hz-navbar__index-list-dialog";
+    HzNavbarComponent.DATA_PAGE = "hzNavbarPage";
+    HzNavbarComponent.OPT_DIALOG_DEFAULTS = {
+        autoOpen: false,
+        show: "fade",
+        hide: "fade"
+    };
+    HzNavbarComponent._DEFAULTS = {
+        locale: {
+            "es": {
+                next: "Siguiente",
+                prev: "Anterior",
+                currentPage: "Página actual",
+                totalPages: "Páginas totales",
+                home: "Ir al inicio",
+                showIndex: "Mostrar índice",
+                index: "Índice",
+                exit: "Salir",
+                exitTitle: "Salir",
+                exitMessage: "Va a salir del curso. ¿Desea guardar la puntuación y salir?",
+                exitOk: "Salir",
+                exitKo: "Cancelar"
+            }
+        },
+        defaultLang: "es"
+    };
+    HzNavbarComponent = HzNavbarComponent_1 = __decorate([
+        core_1.Component({
+            name: "HzNavbar",
+            dependencies: [
+                core_1.$,
+                core_1.EventEmitterFactory,
+                core_1.Navigator,
+                core_1.PageManager,
+                core_1.DataOptions
+            ]
+        })
+    ], HzNavbarComponent);
     return HzNavbarComponent;
+    var HzNavbarComponent_1;
 }(core_1.ComponentController));
-HzNavbarComponent.NAMESPACE = "hzNavbar";
-HzNavbarComponent.PREFIX = "hz-navbar";
-HzNavbarComponent.PREFIX_LIST_DIALOG_OPTIONS = HzNavbarComponent_1.NAMESPACE + "Dialog";
-HzNavbarComponent.QUERY_ACTION_NEXT = "[data-" + HzNavbarComponent_1.PREFIX + "-next]";
-HzNavbarComponent.QUERY_ACTION_PREV = "[data-" + HzNavbarComponent_1.PREFIX + "-prev]";
-HzNavbarComponent.QUERY_BAR = "[data-" + HzNavbarComponent_1.PREFIX + "-bar]";
-HzNavbarComponent.QUERY_PROGRESS = "[data-" + HzNavbarComponent_1.PREFIX + "-progress]";
-HzNavbarComponent.QUERY_ACTION_HOME = "[data-" + HzNavbarComponent_1.PREFIX + "-home]";
-HzNavbarComponent.QUERY_ACTION_INDEX = "[data-" + HzNavbarComponent_1.PREFIX + "-index]";
-HzNavbarComponent.QUERY_PAGE_CURRENT = "[data-" + HzNavbarComponent_1.PREFIX + "-current]";
-HzNavbarComponent.QUERY_PAGE_TOTAL = "[data-" + HzNavbarComponent_1.PREFIX + "-total]";
-HzNavbarComponent.QUERY_INDEX_LIST = "[data-" + HzNavbarComponent_1.PREFIX + "-index-list]";
-HzNavbarComponent.QUERY_INDEX_LIST_ITEM = "[data-" + HzNavbarComponent_1.PREFIX + "-index-list-item]";
-HzNavbarComponent.QUERY_INDEX_LIST_ITEM_CONTENT = "[data-" + HzNavbarComponent_1.PREFIX + "-index-list-item-content]";
-HzNavbarComponent.CLASS_PAGE_VISITED = "hz-navbar__page--visited";
-HzNavbarComponent.CLASS_PAGE_COMPLETED = "hz-navbar__page--completed";
-HzNavbarComponent.CLASS_LIST_INDEX_DIALOG = "hz-navbar__index-list-dialog";
-HzNavbarComponent.DATA_PAGE = "hzNavbarPage";
-HzNavbarComponent.OPT_DIALOG_DEFAULTS = {
-    autoOpen: false
-};
-HzNavbarComponent._DEFAULTS = {
-    locale: {
-        "es": {
-            next: "Siguiente",
-            prev: "Anterior",
-            currentPage: "Página actual",
-            totalPages: "Páginas totales",
-            home: "Ir al inicio",
-            showIndex: "Mostrar índice",
-            index: "Índice"
-        }
-    },
-    defaultLang: "es"
-};
-HzNavbarComponent = HzNavbarComponent_1 = __decorate([
-    core_1.Component({
-        name: "HzNavbar",
-        dependencies: [
-            core_1.$,
-            core_1.EventEmitterFactory,
-            core_1.Navigator,
-            core_1.PageManager,
-            core_1.DataOptions
-        ]
-    })
-], HzNavbarComponent);
 exports.HzNavbarComponent = HzNavbarComponent;
-var HzNavbarComponent_1;
 //# sourceMappingURL=HzNavbarComponent.js.map
 });
 return ___scope___.entry = "dist/HzNavbar.js";
@@ -36392,7 +36498,7 @@ FuseBox.pkg("jq-crossword", {}, function(___scope___){
 ___scope___.file("dist/jquery.crossword.js", function(exports, require, module, __filename, __dirname){
 
 /**
- * @license jq-crossword v1.0.0
+ * @license jq-crossword v1.2.1
  * (c) 2018 Finsi, Inc.
  */
 
@@ -36405,13 +36511,12 @@ ___scope___.file("dist/jquery.crossword.js", function(exports, require, module, 
 /**
  * Available feedback options
  */
-
 (function (CrosswordFeedback) {
     /**
      * Show feedback when all the letters of a clue has been provided
      * @type {string}
      */
-    CrosswordFeedback[CrosswordFeedback["clue"] = "clue"] = "clue";
+    CrosswordFeedback["clue"] = "clue";
 })(exports.CrosswordFeedback || (exports.CrosswordFeedback = {}));
 
 (function (CrosswordEvents) {
@@ -36422,26 +36527,26 @@ ___scope___.file("dist/jquery.crossword.js", function(exports, require, module, 
      * $("someSelector").on("crossword:clue",(e,data)=>{console.log(data)});
      * ```
      */
-    CrosswordEvents[CrosswordEvents["onClueCompleted"] = "crossword:clue"] = "onClueCompleted";
+    CrosswordEvents["onClueCompleted"] = "crossword:clue";
     /**
      * Triggered when the game is solved
      * @example ```
      * $("someSelector").on("crossword:solved",(e)=>{console.log("Solved!"});
      * ```
      */
-    CrosswordEvents[CrosswordEvents["onSolved"] = "crossword:solved"] = "onSolved";
+    CrosswordEvents["onSolved"] = "crossword:solved";
 })(exports.CrosswordEvents || (exports.CrosswordEvents = {}));
 
 /**
  * Represents a cell
  */
-var CrosswordCellRegistry = (function () {
+var CrosswordCellRegistry = /** @class */ (function () {
     function CrosswordCellRegistry() {
     }
     return CrosswordCellRegistry;
 }());
 
-var CrosswordClueRegistry = (function () {
+var CrosswordClueRegistry = /** @class */ (function () {
     function CrosswordClueRegistry() {
         /**
          * The jquery elements of the cells with letters of the clue. Is an js array not a Jquery object
@@ -36503,16 +36608,19 @@ var CrosswordClueRegistry = (function () {
 /**
  * Represents a row of the board
  */
-var CrosswordRowRegistry = (function () {
+var CrosswordRowRegistry = /** @class */ (function () {
     function CrosswordRowRegistry() {
     }
     return CrosswordRowRegistry;
 }());
 
 /**
+ * @module jqCrossword
+ */ /** */
+/**
  * Crossword game
  */
-var CrosswordGame = (function () {
+var CrosswordGame = /** @class */ (function () {
     function CrosswordGame() {
         /**
          * Registry of the clues.
@@ -36524,7 +36632,7 @@ var CrosswordGame = (function () {
      * Destroy the component
      */
     CrosswordGame.prototype.destroy = function () {
-        this.element.removeClass([this.options.classes.disabled, this.options.classes.root]);
+        this.element.removeClass(this.options.classes.disabled + " " + this.options.classes.root);
         this.element.off("." + this.options.namespace);
         this.board.remove();
         this.acrossCluesContainer.remove();
@@ -36629,6 +36737,8 @@ var CrosswordGame = (function () {
         if (this.registryActive) {
             this.registryActive = null;
             this.element.find("." + this.options.classes.clueActive).removeClass(this.options.classes.clueActive);
+            this.acrossCluesList.find("." + this.options.classes.clueActive).removeClass(this.options.classes.clueActive);
+            this.downCluesList.find("." + this.options.classes.clueActive).removeClass(this.options.classes.clueActive);
             this.registryCellActive.element.removeClass(this.options.classes.cellActive);
             this.registryCellActive = null;
         }
@@ -36739,18 +36849,26 @@ var CrosswordGame = (function () {
                     //check the cell
                     if (this._checkCellAnswer(registry)) {
                         correct++;
+                        // classToAdd = this.options.classes.cellCorrect;
+                        // classToRemove = this.options.classes.cellIncorrect;
                     }
                     else {
+                        // classToAdd = this.options.classes.cellIncorrect;
+                        // classToRemove = this.options.classes.cellCorrect;
                     }
+                    //Add/remove class in each cell for his result
+                    // registry.element.removeClass(classToRemove)
+                    //     .addClass(classToAdd);
                 }
                 //Add/remove class in each cell for the global result of the clue. If the clue answer is incorrect, all the cells will have the clueIncorrect class
                 clueRegistry.isCorrect = correct == cellRegistries.length;
-                this.updateClueStateClass(clueRegistry);
+                this._updateClueStateClass(clueRegistry);
                 result = clueRegistry.isCorrect;
             }
             else {
                 clueRegistry.isCorrect = false;
-                this.updateClueStateClass(clueRegistry);
+                this._updateClueStateClass(clueRegistry);
+                //if changes the state
             }
             if (prevCompleted != clueRegistry.isCompleted) {
                 this.element.trigger(exports.CrosswordEvents.onClueCompleted, [
@@ -36862,7 +36980,7 @@ var CrosswordGame = (function () {
         this.cluesRegistry = this._createClueRegistry();
         this._construct();
         this._createCluesLists();
-        this._addEvents();
+        this._addEventsListeners();
         //use or create model
         //create markup from model
         //assign events
@@ -36871,18 +36989,19 @@ var CrosswordGame = (function () {
      * Register the events
      * @private
      */
-    CrosswordGame.prototype._addEvents = function () {
+    CrosswordGame.prototype._addEventsListeners = function () {
         this.element.on("focus." + this.options.namespace, "." + this.options.classes.field, this._onFieldFocus.bind(this));
         this.element.on("blur." + this.options.namespace, "." + this.options.classes.field, this._onFieldBlur.bind(this));
         this.element.on("input." + this.options.namespace, "." + this.options.classes.field, this._onFieldChange.bind(this));
         this.element.on("keydown." + this.options.namespace, "." + this.options.classes.field, this._onFieldKey.bind(this));
-        this.element.on("click." + this.options.namespace, "." + this.options.classes.listItem, this._onListItemClick.bind(this));
+        this.acrossCluesList.on("click." + this.options.namespace, "." + this.options.classes.listItem, this._onListItemClick.bind(this));
+        this.downCluesList.on("click." + this.options.namespace, "." + this.options.classes.listItem, this._onListItemClick.bind(this));
     };
     /**
      * Update the css classes for the clueRegistry depending if is correct or incorrect
      * @param {CrosswordClueRegistry} clueRegistry
      */
-    CrosswordGame.prototype.updateClueStateClass = function (clueRegistry) {
+    CrosswordGame.prototype._updateClueStateClass = function (clueRegistry) {
         if (clueRegistry.isCompleted) {
             var clueClassToAdd = clueRegistry.isCorrect
                 ? this.options.classes.clueCorrect
@@ -36900,13 +37019,10 @@ var CrosswordGame = (function () {
             for (var _i = 0, cellsRegistries_2 = cellsRegistries; _i < cellsRegistries_2.length; _i++) {
                 var cellRegistry = cellsRegistries_2[_i];
                 if (!cellRegistry.acrossClueRegistry || !cellRegistry.downClueRegistry || (!cellRegistry.acrossClueRegistry.isCompleted && !cellRegistry.downClueRegistry.isCompleted)) {
-                    cellRegistry.element.removeClass([
-                        this.options.classes.clueCorrect,
-                        this.options.classes.clueIncorrect
-                    ]);
+                    cellRegistry.element.removeClass(this.options.classes.clueCorrect + " " + this.options.classes.clueIncorrect);
                 }
             }
-            clueRegistry.listItem.removeClass([this.options.classes.clueCorrect, this.options.classes.clueIncorrect]);
+            clueRegistry.listItem.removeClass(this.options.classes.clueCorrect + " " + this.options.classes.clueIncorrect);
         }
     };
     /**
@@ -36920,10 +37036,10 @@ var CrosswordGame = (function () {
             this.interaction = true;
             var $target = $(e.target), downCode = $target.data("down"), acrossCode = $target.data("across"), registry = void 0;
             if (downCode) {
-                registry = this.cluesRegistry[downCode].cellsRegistries[0];
+                registry = this.cluesRegistry[downCode + "d"].cellsRegistries[0];
             }
             else {
-                registry = this.cluesRegistry[acrossCode].cellsRegistries[0];
+                registry = this.cluesRegistry[acrossCode + "a"].cellsRegistries[0];
             }
             this.goToCell(registry);
             this.interaction = false;
@@ -37064,7 +37180,9 @@ var CrosswordGame = (function () {
         var registry = this.cluesRegistry[clue.code];
         if (registry && registry != this.registryActive) {
             this.registryActive = registry;
-            this.element.find("." + this.options.classes.clueActive).removeClass(this.options.classes.clueActive);
+            this.board.find("." + this.options.classes.clueActive).removeClass(this.options.classes.clueActive);
+            this.acrossCluesList.find("." + this.options.classes.clueActive).removeClass(this.options.classes.clueActive);
+            this.downCluesList.find("." + this.options.classes.clueActive).removeClass(this.options.classes.clueActive);
             registry.cellsAsJquery.addClass(this.options.classes.clueActive);
             registry.listItem.addClass(this.options.classes.clueActive);
         }
@@ -37082,6 +37200,7 @@ var CrosswordGame = (function () {
             var closestDefinition = this._getDefinitionForClosestToFirstLetter(cellRegistry.definition);
             across = closestDefinition.across;
             definition = closestDefinition;
+            //look for which one the letter is the first
         }
         else {
             //if in the cell there is only one clue
@@ -37362,15 +37481,16 @@ var CrosswordGame = (function () {
         this._createDownCluesList();
         //Append across
         //if appendTo option is provided
-        if (this.options.acrossListAppendTo) {
+        var acrossListTargetElement = this.options.acrossListAppendTo ? $(this.options.acrossListAppendTo) : null, downListAppendTargetElement = this.options.downListAppendTo ? $(this.options.downListAppendTo) : null;
+        if (acrossListTargetElement && acrossListTargetElement.length > 0) {
             //if the container exists (is optional)
             if (this.acrossCluesContainer) {
                 //append the container
-                $(this.options.acrossListAppendTo).append(this.acrossCluesContainer);
+                acrossListTargetElement.append(this.acrossCluesContainer);
             }
             else {
                 //otherwise append the list
-                $(this.options.acrossListAppendTo).append(this.acrossCluesList);
+                acrossListTargetElement.append(this.acrossCluesList);
             }
         }
         else {
@@ -37379,15 +37499,15 @@ var CrosswordGame = (function () {
         }
         //Append down
         //if appendTo option is provided
-        if (this.options.downListAppendTo) {
+        if (downListAppendTargetElement && downListAppendTargetElement.length > 0) {
             //if the container exists (is optional)
             if (this.downCluesContainer) {
                 //append the container
-                $(this.options.downListAppendTo).append(this.downCluesContainer);
+                downListAppendTargetElement.append(this.downCluesContainer);
             }
             else {
                 //otherwise append the list
-                $(this.options.downListAppendTo).append(this.downCluesList);
+                downListAppendTargetElement.append(this.downCluesList);
             }
         }
         else {
@@ -37406,11 +37526,11 @@ var CrosswordGame = (function () {
         //data for across
         if (clueDefinition.across) {
             listItem.addClass(this.options.classes.clue + "--" + clueDefinition.code);
-            listItem.attr("data-across", clueDefinition.code);
+            listItem.attr("data-across", clueDefinition.number);
         }
         else {
             listItem.addClass(this.options.classes.clue + "--" + clueDefinition.code);
-            listItem.attr("data-down", clueDefinition.code);
+            listItem.attr("data-down", clueDefinition.number);
         }
         listItem.text(clueDefinition.clue);
     };
@@ -37575,11 +37695,33 @@ var CrosswordGame = (function () {
     return CrosswordGame;
 }());
 
-$.widget("ui.crossword", CrosswordGame.prototype);
-
 /**
  * @module jqCrossword
+ */ /** */
+//$.widget extends the prototype that receives, to extend the prototype all the properties must be enumerable
+//the properties of a es6 class prototype aren't enumerable so it's necessary to get the propertyNames and get the descriptor of each one
+if (Object.hasOwnProperty("getOwnPropertyDescriptors")) {
+    //@ts-ignore
+    var proto = {}, names = Object.getOwnPropertyNames(CrosswordGame.prototype);
+    for (var nameIndex = 0, namesLength = names.length; nameIndex < namesLength; nameIndex++) {
+        var currentName = names[nameIndex];
+        proto[currentName] = Object.getOwnPropertyDescriptor(CrosswordGame.prototype, currentName).value;
+    }
+    $.widget("ui.crossword", proto);
+}
+else {
+    $.widget("ui.crossword", CrosswordGame);
+}
+
+/**
+ * jqCrossword module.
+ *
+ * @module jqCrossword
  * @preferred
+ * @example For browser usage, all the members are available using the namespace `jqCrossword`
+ * ```typescript
+ * jqCrossword.CrosswordGame
+ * ```
  */ /** */
 
 exports.CrosswordCellRegistry = CrosswordCellRegistry;
@@ -37598,7 +37740,7 @@ FuseBox.pkg("crossword-definition", {}, function(___scope___){
 ___scope___.file("dist/crossword-definition.js", function(exports, require, module, __filename, __dirname){
 
 /**
- * @license crossword-definition v0.0.1
+ * @license crossword-definition v1.0.1
  * (c) 2018 Finsi, Inc.
  */
 
@@ -37611,7 +37753,7 @@ ___scope___.file("dist/crossword-definition.js", function(exports, require, modu
 /**
  * Represents a cell of the clue
  */
-var CrosswordCell = (function () {
+var CrosswordCell = /** @class */ (function () {
     function CrosswordCell(params) {
         /**
          * The cell is white or has content
@@ -37663,7 +37805,7 @@ var CrosswordCell = (function () {
 /**
  * Definition for a clue. Could be down or across
  */
-var CrosswordClueDefinition = (function () {
+var CrosswordClueDefinition = /** @class */ (function () {
     function CrosswordClueDefinition(params) {
         /**
          * The clue is across or down
@@ -37703,6 +37845,9 @@ var CrosswordClueDefinition = (function () {
     return CrosswordClueDefinition;
 }());
 
+/**
+ * @module crosswordDefinition
+ */ /** */
 /**
  *  Crossword definition.
  *  Creates a model for a crossword game
@@ -37793,7 +37938,7 @@ var CrosswordClueDefinition = (function () {
  *  });
  *  ```
  */
-var CrosswordDefinition = (function () {
+var CrosswordDefinition = /** @class */ (function () {
     function CrosswordDefinition(crosswordDefinition) {
         /**
          * Across clues
@@ -37816,10 +37961,9 @@ var CrosswordDefinition = (function () {
         var clueDefinitions = crosswordDefinition.acrossClues.concat(crosswordDefinition.downClues);
         for (var definitionIndex = 0; definitionIndex < clueDefinitions.length; definitionIndex++) {
             //  Grab the clue and build a flag letting us know if we're across or down.
-            var clueDefinition = clueDefinitions[definitionIndex];
-            var across = definitionIndex < crosswordDefinition.acrossClues.length;
+            var clueDefinition = clueDefinitions[definitionIndex], across = definitionIndex < crosswordDefinition.acrossClues.length, 
             //  Create a model for the clue.
-            var clueModel = new CrosswordClueDefinition({
+            clueModel = new CrosswordClueDefinition({
                 number: clueDefinition.number,
                 answer: clueDefinition.answer,
                 x: clueDefinition.x - 1,
@@ -37827,11 +37971,11 @@ var CrosswordDefinition = (function () {
                 across: across,
                 clue: clueDefinition.clue,
                 hints: clueDefinition.hints
-            });
+            }), x = clueModel.x, y = clueModel.y;
             this[across ? 'acrossClues' : 'downClues'].push(clueModel);
             //  The clue position must be in the bounds.
             if (clueModel.x < 0 || clueModel.x >= this.width || clueModel.y < 0 || clueModel.y >= this.height) {
-                throw new Error("[CrosswordDefinition] Clue " + clueModel.code + " doesn't start in the bounds.");
+                throw new Error("[CrosswordDefinition] Clue '" + clueModel.answer + "' at (" + (clueModel.x + 1) + ", " + (clueModel.y + 1) + ") doesn't start in the bounds.");
             }
             /* //  Copy over the clue definition length into the model,
              //  also keeping track of the total length.
@@ -37842,31 +37986,30 @@ var CrosswordDefinition = (function () {
             //  Make sure the clue is not too long.
             if (across) {
                 if ((clueModel.x + clueModel.answer.length) > this.width) {
-                    throw new Error("[CrosswordDefinition] Clue at (" + (clueModel.x + 1) + "," + (clueModel.y + 1) + ") '" + clueModel.answer + "' exceeds horizontal bounds, width of " + this.width + ".");
+                    throw new Error("[CrosswordDefinition] Clue '" + clueModel.code + "' '" + clueModel.answer + "' at (" + (clueModel.x + 1) + ", " + (clueModel.y + 1) + ") exceeds horizontal bounds, the clue needs a with of " + (clueModel.answer.length + clueModel.x) + " but the board has a width of " + this.width + ".");
                 }
             }
             else {
                 if ((clueModel.y + clueModel.answer.length) > this.height) {
-                    throw new Error("[CrosswordDefinition] Clue at (" + (clueModel.x + 1) + "," + (clueModel.y + 1) + ") '" + clueModel.answer + "' exceeds vertical bounds, height of " + this.height + ".");
+                    throw new Error("[CrosswordDefinition] Clue '" + clueModel.code + "' '" + clueModel.answer + "' at (" + (clueModel.x + 1) + ", " + (clueModel.y + 1) + ") exceeds vertical bounds, the clue needs a height of " + (clueModel.answer.length + clueModel.y) + " but the board has a height of " + this.height + ".");
                 }
             }
-            var x = clueModel.x;
-            var y = clueModel.y;
+            //for each letter
             for (var letter = 0; letter < clueModel.answer.length; letter++) {
                 var cell = this.matrix[y][x];
-                cell.light = true;
-                cell[across ? 'acrossClue' : 'downClue'] = clueModel;
-                cell[across ? 'acrossClueLetterIndex' : 'downClueLetterIndex'] = letter;
-                clueModel.cells.push(cell);
-                //letter starts with 0, hints positions starts from 1,
-                if (clueModel.hints.length > 0 && (clueModel.hints.indexOf(letter + 1) != -1)) {
-                    cell.hint = true;
-                }
-                //  If the clue has an answer we set it in the cell...
-                if (clueModel.answer) {
-                    //  ...but only if it is not different to an existing answer.
-                    if (cell.answer !== undefined && cell.answer !== " " && cell.answer.toLowerCase() !== clueModel.answer[letter].toLowerCase()) {
-                        var cellWord = cell.acrossClue.answer.split(""), cellWordLetterIndex = cell.acrossClueLetterIndex, clueWord = cell.downClue.answer.split(""), clueWordLetterIndex = cell.downClueLetterIndex;
+                //if the cell already has an answer, perform checks
+                if (cell.answer) {
+                    //check if the clue is overlapping another across clue
+                    if (clueModel.across && cell.acrossClue) {
+                        throw new Error("[CrosswordDefinition] Across clue '" + clueModel.code + "' '" + clueModel.answer + "' at (" + (x + 1) + ", " + (y + 1) + ") is overlapping the existing clue '" + cell.acrossClue.code + "' '" + cell.acrossClue.answer + "' at (" + (cell.acrossClue.x + 1) + ", " + (cell.acrossClue.y + 1) + ")");
+                        //check if the clue is overlapping another down clue
+                    }
+                    else if (!clueModel.across && cell.downClue) {
+                        throw new Error("[CrosswordDefinition] Down clue '" + clueModel.code + "' '" + clueModel.answer + "' at (" + (x + 1) + ", " + (y + 1) + ") is overlapping the existing clue '" + cell.downClue.code + "' '" + cell.downClue.answer + "' at (" + (cell.downClue.x + 1) + ", " + (cell.downClue.y + 1) + ")");
+                        //check if both clues are coherent
+                    }
+                    else if (cell.answer.toLowerCase() !== clueModel.answer[letter].toLowerCase()) {
+                        var cellWord = cell.acrossClue.answer.split(""), cellWordLetterIndex = cell.acrossClueLetterIndex, clueWord = clueModel.answer.split(""), clueWordLetterIndex = letter;
                         cellWord.splice(cellWordLetterIndex, 0, "[");
                         cellWord.splice(cellWordLetterIndex + 2, 0, "]");
                         cellWord = cellWord.join("");
@@ -37875,14 +38018,22 @@ var CrosswordDefinition = (function () {
                         clueWord = clueWord.join("");
                         throw new Error("[CrosswordDefinition] Clue '" + clueModel.code + "' answer at (" + (x + 1) + ", " + (y + 1) + ") is not coherent with previous clue '" + cell.acrossClue.code + "' at (" + (cell.acrossClue.x + 1) + ", " + (cell.acrossClue.y + 1) + ") answer. " + cellWord + " doesn't match with " + clueWord);
                     }
-                    cell.answer = clueModel.answer[letter];
                 }
                 if (letter === 0) {
                     if (cell.clueLabel && cell.clueLabel !== clueModel.number) {
                         var prevClue = cell.acrossClue || cell.downClue;
-                        throw new Error("[CrosswordDefinition] Clue '" + clueModel.code + "' ('" + clueModel.answer + "') with number '" + clueModel.number + "' at (" + (x + 1) + ", " + (y + 1) + ") has a label which is inconsistent with another clue '" + cell.acrossClue.code + "' (" + prevClue.number + ") with number'" + prevClue.answer + "'. If two clues starts in the same cell, the 'number' option must be the same. In this case, " + prevClue.number);
+                        throw new Error("[CrosswordDefinition] Clue '" + clueModel.code + "' ('" + clueModel.answer + "') at (" + (x + 1) + ", " + (y + 1) + ") has a label which is inconsistent with another clue '" + cell.acrossClue.code + "' (" + prevClue.number + ") with number'" + prevClue.answer + "'. If two clues starts in the same cell, the 'number' option must be the same. In this case, " + prevClue.number);
                     }
                     cell.clueLabel = clueModel.number;
+                }
+                cell.answer = clueModel.answer[letter];
+                cell.light = true;
+                cell[across ? 'acrossClue' : 'downClue'] = clueModel;
+                cell[across ? 'acrossClueLetterIndex' : 'downClueLetterIndex'] = letter;
+                clueModel.cells.push(cell);
+                //letter starts with 0, hints positions starts from 1,
+                if (clueModel.hints.length > 0 && (clueModel.hints.indexOf(letter + 1) != -1)) {
+                    cell.hint = true;
                 }
                 if (across) {
                     x++;
