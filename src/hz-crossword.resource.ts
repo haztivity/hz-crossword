@@ -49,9 +49,6 @@ export class HzCrosswordResource extends ResourceController{
     protected _onSolved(e,data){
         let instance = e.data.instance;
         instance._markAsCompleted();
-        instance._scormService.doLMSSetValue("cmi.core.lesson_status","completed");
-        instance._scormService.doLMSSetValue("cmi.core.score.raw",100);
-        instance._scormService.doLMSCommit();
     }
     //@ts-ignore
     public disable(){
