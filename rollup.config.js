@@ -1,5 +1,5 @@
 import typescript from 'rollup-plugin-typescript';
-import uglify from 'rollup-plugin-uglify';
+import {uglify} from 'rollup-plugin-uglify';
 import uglifyEs from 'rollup-plugin-uglify-es';
 import license from 'rollup-plugin-license';
 import {name} from "./package.json";
